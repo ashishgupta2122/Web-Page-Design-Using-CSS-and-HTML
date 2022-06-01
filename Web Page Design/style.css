@@ -1,0 +1,85 @@
+@import url(https://fonts.googleapis.com/css2?family=Righteous&family=Roboto+Slab&family=Secular+One&display=swap);
+*{
+    padding: 0;
+    margin: 0;
+}
+.wrapper{
+    background: url(a1.jpg) no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.navbar{
+    height: 120px;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.4);
+}
+.logo{
+    width: 80px;
+    height: 36px;
+    padding: 20px 100px;
+}
+.navbar ul{
+    float: right;
+    margin-right: 20px;
+}
+.navbar ul li {
+    list-style: none;
+    margin: 0 8px;
+    display: inline-block;
+    line-height: 80px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 80px;
+    padding: 6px 12px;
+    font-family: 'Roboto Slab', serif;
+    margin: 33px;
+    font-weight: bold;
+    transition: .4s;
+}
+.navbar ul li a.active,
+.navbar ul li a:hover{
+    background: red;
+    border-radius: 2px;
+}
+.wrapper .center{
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    user-select: none;
+}
+.center h1{
+    color: white;
+    font-size: 90px;
+    width: 900px;
+    text-align: center;
+}
+.center h2{
+    color: white;
+    font-size: 90px;
+    width: 885px;
+    margin-top: 10px;
+    text-align: center;
+}
+.center .buttons{
+    margin: 35px 256px;
+    font-size: 43px;
+}
+.buttons button{
+    height: 135px;
+    width: 354px;
+    font-size: 35px;
+    font-weight: bold;
+    color: #ffb3b3;
+    background-color: red;
+    border: 2px solid #cc0000;
+    outline: none;
+    cursor: pointer;
+    border-radius: 25px;
+    transition: .5s;
+}
+.buttons button:hover{
+    color: #cc0000;
+}
